@@ -11,10 +11,5 @@ h1{
     border-radius: 20px;
 }
 
-.resultado{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-}
 
   
