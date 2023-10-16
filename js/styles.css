@@ -3,12 +3,42 @@ h1{
     padding: 10px;
     margin: 30px;
     font-family: 'Cairo Play';
+    font-size: 1.5cm;
     color: black;
     background-color: #FCF5C7;
+    text-shadow: 2px 2px 15px gray;
     text-align: center;
     border-radius: 10 px;
     border: 20px solid black;
     border-radius: 20px;
+}
+h2{
+    font-size: 1cm;
+}
+h3{
+    font-size: 8mm;
+    font-family: 'Palatino Linotype';
+
+}
+.resultados{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px;
+}
+
+.buscador{
+    box-sizing: border-box;
+    font-size: 8mm;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Palatino Linotype';
+}
+.termino{
+    box-sizing: border-box;
+    font-size: 8mm;
+    padding: 10px;
+    margin: 20px 10px;
 }
 
 
